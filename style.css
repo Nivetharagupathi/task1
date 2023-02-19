@@ -1,0 +1,61 @@
+.main{
+    width: 100%;
+    height:70vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+.logo1{
+    width: 40px;
+    cursor: pointer;
+}
+.navbar{
+    width:100%;
+    background-color: antiquewhite;
+
+}
+.navbar a{
+    float:right;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size:medium;
+    padding: 14px 16px;
+}
+
+.logo2{
+    width: 50px;
+    cursor: pointer;
+    float:right;
+}
+button{
+    color: rgb(52, 12, 12);
+    padding: 10px 25px;
+    background-color: antiquewhite;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor:pointer
+}
+.secondmain{
+    width: 100%;
+    height:50vh;
+    background-color: white;
+    background-size: cover;
+    position: center;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+}
+.secondmain p{
+    font-size: medium;
+}
+@media screen and (max-width:600px){
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
